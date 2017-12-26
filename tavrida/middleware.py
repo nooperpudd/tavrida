@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import controller
+from tavrida import controller
 
 
 class Middleware(controller.AbstractMessageController):

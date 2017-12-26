@@ -18,10 +18,10 @@ import abc
 import copy
 import logging
 
-import controller
-import dispatcher
-import exceptions
-import messages
+from tavrida import controller
+from tavrida import dispatcher
+from tavrida import exceptions
+from tavrida import messages
 
 
 class ServiceController(controller.AbstractController):

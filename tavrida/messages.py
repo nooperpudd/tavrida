@@ -19,9 +19,9 @@ import copy
 import logging
 import uuid
 
-import entry_point
-import exceptions
-import utils
+from tavrida import entry_point
+from tavrida import exceptions
+from tavrida import utils
 
 
 class AMQPMessage(object):

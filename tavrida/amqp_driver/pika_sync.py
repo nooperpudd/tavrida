@@ -4,7 +4,7 @@ import time
 
 import pika
 
-import base
+from tavrida.amqp_driver import base
 from tavrida import exceptions
 from tavrida import messages
 

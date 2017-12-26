@@ -16,8 +16,8 @@
 
 import copy
 
-import entry_point
-import messages
+from tavrida import entry_point
+from tavrida import messages
 
 
 class RCPCallProxy(object):

@@ -16,8 +16,8 @@
 
 import logging
 
-import controller
-import steps
+from tavrida import controller
+from tavrida import steps
 
 
 class PreProcessor(controller.AbstractController):

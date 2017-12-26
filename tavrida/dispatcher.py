@@ -17,12 +17,12 @@
 import functools
 import inspect
 
-import controller
-import entry_point
-import exceptions
-import messages
-import proxies
-import router
+from tavrida import controller
+from tavrida import entry_point
+from tavrida import exceptions
+from tavrida import messages
+from tavrida import proxies
+from tavrida import router
 
 
 class Dispatcher(controller.AbstractController):

@@ -1,5 +1,4 @@
-import ConfigParser
-
+from configparser import ConfigParser
 
 class DSFileEntry(object):
     """Record contains information about service exchanges."""

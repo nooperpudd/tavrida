@@ -14,11 +14,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import controller
-import exceptions
-import messages
+from tavrida import controller
+from tavrida import exceptions
+from tavrida import messages
 
-import utils
+from tavrida import utils
 
 
 class Router(utils.Singleton, controller.AbstractController):

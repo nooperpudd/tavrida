@@ -16,9 +16,9 @@
 
 import logging
 
-import controller
-import entry_point
-import steps
+from tavrida import controller
+from tavrida import entry_point
+from tavrida import steps
 
 
 class PostProcessor(controller.AbstractController):

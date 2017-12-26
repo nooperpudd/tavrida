@@ -18,14 +18,14 @@ import abc
 import logging
 import sys
 
-from amqp_driver import driver as amqp_driver
-import config
-import configfile
-import discovery
-import exceptions
-import postprocessor
-import preprocessor
-import router
+from tavrida.amqp_driver import driver as amqp_driver
+from tavrida import config
+from tavrida import configfile
+from tavrida import discovery
+from tavrida import exceptions
+from tavrida import postprocessor
+from tavrida import preprocessor
+from tavrida import router
 
 
 class Server(object):
@@ -179,7 +179,6 @@ class CLIServer(Server):
 
         service_list = configfile.get_services_classes()
         service_mapping = configfile.get_service_name_class_mapping()
-        print configfile.get_services()
         for service in configfile.get_services():
             df = discovery.DiscoveryFactory(service["discovery"])
             disc = df.get_discovery_service(service["name"],

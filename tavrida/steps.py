@@ -15,8 +15,8 @@
 # limitations under the License.
 import logging
 
-import controller
-import messages
+from tavrida import controller
+from tavrida import messages
 
 
 class ValidateMessageMiddleware(controller.AbstractController):

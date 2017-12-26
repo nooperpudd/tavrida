@@ -1,7 +1,6 @@
 import logging
 
-import pika_async
-import pika_sync
+from tavrida.amqp_driver import pika_async,pika_sync
 
 
 class AMQPDriver(object):
